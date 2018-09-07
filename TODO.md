@@ -44,18 +44,18 @@
   7 = 5 hours
   10 = full day + ??
 
-  *(5) add due date
-  *(7) time stamps (moment.js)
-  (5) format the display of the items in a list (need to add more detail)
+  add due date
+  * (7) time stamps (moment.js)
+  * (5) format the display of the items in a list (need to add more detail)
   (??) fix the layout
-  (7) color coded priority
+  * (7) color coded priority
   highlight certain items
-  mouse over to see details
-  ability to select and delete multiple items (checkbox?)
-  add status/priorty and allow for sorting based on status/priority
+  * (7)mouse over to see details
+  * (7)ability to select and delete multiple items (checkbox?)
+  * (5)add status/priorty and allow for sorting based on status/priority
   Item categories
   ability to add/leave comments on item
-  upload files/images
+  * (5)upload files/images
   share item
   drag and drop to arrange
   search/filter on keyup/keydown
@@ -74,7 +74,6 @@
   add more items button, that shows another input section allowing for multiple items to be added at once
   Fun stuff
   auto-complete when searching/filtering
-
 
 
 

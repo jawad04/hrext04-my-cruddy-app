@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <title>My First CRUD App</title>
     <link rel="stylesheet" href="app.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
     <script
             src="https://code.jquery.com/jquery-3.3.1.js"
             integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
@@ -12,12 +14,37 @@
 
   </head>
   <body>
+    <div id="container">
+      <div id = "todos">
+        <h1> Todo List </h1>
+        <input type="text" class="user-input-title" placeholder="Enter the Title"> 
+        <div id="details">
+        <textarea class="user-input-body" placeholder="Enter the body of text"></textarea>
+        <div>
+        <input type="color" id="head" name="color"
+               value="#e66465" />
+        <label for="head">Pick A Color</label>
+    </div>
+    <button class="add-text-btn">Create List</button>
+    <button class="jawads"> Show</button>
+      </div>
+        <ul>
+          <!-- <li><span>X</span> Go to Potions Class</li>
+          <li><span>X</span> Buy new Robes</li>
+          <li><span>X</span> Visit Hagrid</li> -->
+        </ul>
+      </div>
+      <div id="slides">
+        <h1> Some othere ones </h1>
+        <ol>
+        </ol>
+      </div>
+    </div>
 
-  <input type="text" class="user-input-title" placeholder="Enter the Title">
-  <textarea class="user-input-body" placeholder="Enter the body of text"></textarea>
+  <!-- <input type="text" class="user-input-title" placeholder="Enter the Title">
+  <textarea class="user-input-body" placeholder="Enter the body of text"></textarea> -->
 
-  <button class="add-text-btn">add text</button>
-  <button class="del-text-btn">delete text</button>
+
 
   <div class="display"></div>
   </body>

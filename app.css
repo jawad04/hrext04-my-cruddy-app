@@ -1,0 +1,142 @@
+#container {
+width: 1000px;
+margin: 100px auto;
+}
+
+#todos {
+width:360px;
+float: left;
+height: 500px;
+margin-right: 20px;
+box-shadow: 0 0 3px rgba(0,0,0, 0.1);
+background: #f7f7f7;
+}
+
+#slides {
+width: 500px;
+float: left;
+height: 500px;
+background-color: yellow;
+}
+
+.complete {
+color: red;
+text-decoration: line-through;
+}
+
+h1 {
+	background: #2980b9;
+	color: white;
+	margin: 0;
+	padding: 10px 20px;
+	text-transform: uppercase;
+	font-size: 24px;
+	font-weight: normal;
+}
+ ul {
+ 	list-style: none;
+ 	margin: 0;
+ 	padding: 0;
+ }
+ ol {
+ 	list-style: none;
+ 	margin: 0;
+ 	padding: 0;
+ }
+ body {
+ 	font-family: Roboto;
+ 	background: #c9d6ff; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #c9d6ff, #e2e2e2); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #c9d6ff, #e2e2e2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+ }
+
+ li {
+ 	background: #fff;
+ 	height: 40px;
+ 	line-height: 40px;
+ }
+
+ li:nth-child(2n) {
+ 	background: pink;
+ }
+
+ .user-input-title {
+ 	font-size: 18px;
+ 	background-color: #f7f7f7;
+ 	width: 100%;
+ 	padding: 13px 13px 13px 20px;
+ 	box-sizing: border-box;
+ }
+ .user-input-title:focus {
+ 	background: white;
+ 	border: 2px solid #2980b9;
+ }
+ textarea {
+ 	font-size: 18px;
+ 	background-color: #f7f7f7;
+ 	width: 100%;
+ 	padding: 13px 13px 13px 20px;
+ 	box-sizing: border-box;
+ 	height: 200px;
+ }
+ textarea:focus {
+ 	background: white;
+ 	border: 2px solid #2980b9;
+ }
+
+ .fa-square {
+ 	margin-right: 10px;
+ 	float: right;
+ 	text-align: center;
+ 	margin-top: 10px;
+
+ }
+ .fa-minus {
+ 	float: right;
+ 	margin-right: 10px;
+ }
+
+ .delete {
+ 	background: #e74c3c;
+ 	height: 40px;
+ 	text-align: center;
+ 	margin-right: 0;
+ 	color: white; 
+ 	width: 0;
+ 	display: inline-block;
+ 	transition: 0.2s linear;
+ 	opacity: 0;
+ }
+
+ li:hover span {
+ 	width: 40px;
+ 	opacity: 1.0;
+ }
+ 
+ .check {
+ 	background: #e74c3c;
+ 	height: 40px;
+ 	text-align: center;
+ 	margin-right: 10px;
+ 	color: white; 
+ 	width: 0;
+ 	display: inline-block;
+ 	transition: 0.2s linear;
+ 	opacity: 0;
+ }
+ .square {
+ 	background: black;
+ }
+ .hide {
+ 	display: block;
+ }
+
+
+
+
+
+
+
+
+
+

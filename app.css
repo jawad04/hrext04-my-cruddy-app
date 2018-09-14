@@ -1,31 +1,31 @@
 #container {
-width: 1000px;
-margin: 100px auto;
+  	width: 1000px;
+  	margin: 100px auto;
 }
 
 #recipe {
-border-radius: 4px;
-width:360px;
-float: left;
-height: 500px;
-margin-right: 20px;
-box-shadow: 0 0 3px rgba(0,0,0, 0.1);
-background: #f7f7f7;
+  	border-radius: 4px;
+  	width:360px;
+  	float: left;
+  	height: 500px;
+  	margin-right: 20px;
+  	box-shadow: 0 0 3px rgba(0,0,0, 0.1);
+  	background: #f7f7f7;
 }
 
 #recipes {
-border-radius: 4px;
-width: 600px;
-float: left;
-height: 500px;
-background-image: url("freshfood.jpg");
-background-size: cover;
+  	border-radius: 4px;
+  	width: 600px;
+  	float: left;
+  	height: 500px;
+  	background-image: url("freshfood.jpg");
+  	background-size: cover;
 
 }
 
 .complete {
-color: black;
-text-decoration: line-through;
+  	color: black;
+  	text-decoration: line-through;
 }
 
 h3 {
@@ -184,52 +184,52 @@ h2 {
 }
 
 .images {
-  display: block;
-  width: 20%;
-  height: auto;
+  	display: block;
+  	width: 20%;
+ 	 height: auto;
 }
 
 #color-btn {
-  width: 300px;
-  height: 35px;
-  border: solid 2px #ddd;
-  border-radius: 10px;
-  margin: 5px auto;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: white;
-  color: #875F9A;
-  border: 2px solid #875F9A; 
+ 	width: 300px;
+  	height: 35px;
+  	border: solid 2px #ddd;
+  	border-radius: 10px;
+  	margin: 5px auto;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+ 	background-color: white;
+ 	color: #875F9A;
+ 	border: 2px solid #875F9A; 
 }
 
 #url {
-  width: 300px;
-  height: 35px;
-  border: solid 2px #ddd;
-  border-radius: 10px;
-  margin: 5px auto;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: white;
-  color: #875F9A;
-  border: 2px solid #875F9A; 
-  text-align: center;
+  	width: 300px;
+  	height: 35px;
+  	border: solid 2px #ddd;
+  	border-radius: 10px;
+  	margin: 5px auto;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	background-color: white;
+  	color: #875F9A;
+  	border: 2px solid #875F9A; 
+  	text-align: center;
 }
 
 .add-text-btn {
-  width: 310px;
-  height: 40px;
-  border: solid 2px #ddd;
-  border-radius: 10px;
-  margin: 5px auto;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: white;
-  color: #875F9A;
-  border: 2px solid #875F9A;
+  	width: 310px;
+  	height: 40px;
+  	border: solid 2px #ddd;
+  	border-radius: 10px;
+  	margin: 5px auto;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	background-color: white;
+  	color: #875F9A;
+  	border: 2px solid #875F9A;
 }
 
 

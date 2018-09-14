@@ -23,14 +23,6 @@ $(document).ready(function() {
     }
   });
 
-
-  // $(".user-input-title").keypress(function(e) {
-  //   if (e.which === 13) {
-  //     var todoText = $(this).val();
-  //     $(this).val("");
-  //     $('ol').append("<li> <span class='delete'> <i class='far fa-trash-alt'></i></span><span class='check'> <i class='fas fa-check'></i></span>" + todoText + " <span class='square'><i class='far fa-square'></i></span> </li>");
-  //   }
-  // })
   $(".add-text-btn").on("click", function(e) {
     e.stopPropagation();
     var todoTexts = $(".user-input-title").val();
@@ -41,7 +33,6 @@ $(document).ready(function() {
     $('.user-input-title').val("");
     $('#url').val("");
     $("ol").append("<li style='background:"+color+"'> <span class='delete'> <i class='far fa-trash-alt'></i></span><span class='check'> <i class='fas fa-check'></i></span>" + todoTexts + " <span class='square'><i class='far fa-square'></i></span> <div class='overlay' style='display:none'><div class='textContainer'><div class='text'><h2>"+ todoTexts + "</h2><div class='details'>"+fromBody+"</div> <div class='images'><img src='"+image+"' width='300px' height='auto'/></div></div></div></div> </li>")
-    // $(".overlay").append("<div class='text'><h2>"+ todoTexts + "</h2><div>"+fromBody+"</div></div>");
 
   });
 

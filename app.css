@@ -4,6 +4,7 @@ margin: 150px auto;
 }
 
 #todos {
+border-radius: 4px;
 width:360px;
 float: left;
 height: 500px;
@@ -13,7 +14,8 @@ background: #f7f7f7;
 }
 
 #slides {
-width: 500px;
+border-radius: 4px;
+width: 600px;
 float: left;
 height: 500px;
 background-image: url("freshfood.jpg");
@@ -26,7 +28,19 @@ color: black;
 text-decoration: line-through;
 }
 
+h3 {
+	border-radius: 4px 4px 0 0;
+	background: #FFA631;
+	color: white;
+	margin-top: 50px;
+	padding: 10px 10px;
+	font-size: 50px;
+	font-weight: normal;
+	text-align: center;
+}
+
 h1 {
+	border-radius: 4px 4px 0 0;
 	background: #875F9A;
 	color: white;
 	margin: 0;
@@ -48,12 +62,9 @@ h1 {
  }
  body {
  	font-family: Roboto;
-background: #F09819;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #EDDE5D, #F09819);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #EDDE5D, #F09819); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-
-  
+    background: #F09819;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #EDDE5D, #F09819);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #EDDE5D, #F09819); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
  }
 
  li {
@@ -72,11 +83,14 @@ background: linear-gradient(to right, #EDDE5D, #F09819); /* W3C, IE 10+/ Edge, F
  	width: 100%;
  	padding: 13px 13px 13px 10px;
  	box-sizing: border-box;
+ 	border: 1px solid #875F9A
  }
+
  .user-input-title:focus {
  	background: white;
  	border: 2px solid #2980b9;
  }
+
  textarea {
  	font-size: 18px;
  	background-color: #f7f7f7;
@@ -84,7 +98,9 @@ background: linear-gradient(to right, #EDDE5D, #F09819); /* W3C, IE 10+/ Edge, F
  	padding: 13px 13px 13px 10px;
  	box-sizing: border-box;
  	height: 250px;
+ 	border: 1px solid #875F9A
  }
+
  textarea:focus {
  	background: white;
  	border: 2px solid #2980b9;
@@ -96,12 +112,9 @@ background: linear-gradient(to right, #EDDE5D, #F09819); /* W3C, IE 10+/ Edge, F
  	float: right;
  	text-align: center;
  	margin-top: 10px;
-
  }
 
-
  .delete {
- 	/*background: #e74c3c;*/
  	height: 40px;
  	text-align: center;
  	margin-right: 0;
@@ -118,7 +131,6 @@ background: linear-gradient(to right, #EDDE5D, #F09819); /* W3C, IE 10+/ Edge, F
  }
  
  .check {
- 	/*background: #e74c3c;*/
  	height: 40px;
  	text-align: center;
  	margin-right: 10px;
@@ -128,13 +140,14 @@ background: linear-gradient(to right, #EDDE5D, #F09819); /* W3C, IE 10+/ Edge, F
  	transition: 0.2s linear;
  	opacity: 0;
  }
+
  .square {
  	background: black;
  }
+
  .hide {
  	display:block;
  }
-
 
  .overlay {
     position: absolute;
@@ -149,15 +162,8 @@ background: linear-gradient(to right, #EDDE5D, #F09819); /* W3C, IE 10+/ Edge, F
     z-index: 2;
     cursor: pointer;
 }
-/*.textContainer {
-	position: absolute;
-	border: 2px solid black;
-	width: 500px;
-	height: 500px;
-	margin: 100px;
-}*/
 
-.text{
+.text {
 	position: absolute;
     top: 50%;
     left: 50%;
@@ -166,6 +172,7 @@ background: linear-gradient(to right, #EDDE5D, #F09819); /* W3C, IE 10+/ Edge, F
     transform: translate(-50%,-50%);
     -ms-transform: translate(-50%,-50%);
 }
+
 h2 {
 	background: #875F9A;
 	color: white;
@@ -174,14 +181,55 @@ h2 {
 	text-transform: uppercase;
 	font-size: 50px;
 	font-weight: normal;
-
 }
 
 .images {
   display: block;
   width: 20%;
   height: auto;
-	/*position: fixed;*/
+}
+
+#head {
+  width: 300px;
+  height: 30px;
+  border: solid 2px #ddd;
+  border-radius: 10px;
+  margin: 5px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  color: #875F9A;
+  border: 2px solid #875F9A; 
+}
+
+#url {
+  width: 300px;
+  height: 30px;
+  border: solid 2px #ddd;
+  border-radius: 10px;
+  margin: 5px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  color: #875F9A;
+  border: 2px solid #875F9A; /* Green */
+  text-align: center;
+}
+
+.add-text-btn {
+  width: 300px;
+  height: 50px;
+  border: solid 2px #ddd;
+  border-radius: 10px;
+  margin: 5px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  color: #875F9A;
+  border: 2px solid #875F9A; /* Green */
 }
 
 

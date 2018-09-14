@@ -1,9 +1,9 @@
 #container {
 width: 1000px;
-margin: 150px auto;
+margin: 100px auto;
 }
 
-#todos {
+#recipe {
 border-radius: 4px;
 width:360px;
 float: left;
@@ -13,7 +13,7 @@ box-shadow: 0 0 3px rgba(0,0,0, 0.1);
 background: #f7f7f7;
 }
 
-#slides {
+#recipes {
 border-radius: 4px;
 width: 600px;
 float: left;
@@ -34,7 +34,7 @@ h3 {
 	color: white;
 	margin-top: 50px;
 	padding: 10px 10px;
-	font-size: 50px;
+	font-size: 70px;
 	font-weight: normal;
 	text-align: center;
 }
@@ -189,9 +189,9 @@ h2 {
   height: auto;
 }
 
-#head {
+#color-btn {
   width: 300px;
-  height: 30px;
+  height: 35px;
   border: solid 2px #ddd;
   border-radius: 10px;
   margin: 5px auto;
@@ -205,7 +205,7 @@ h2 {
 
 #url {
   width: 300px;
-  height: 30px;
+  height: 35px;
   border: solid 2px #ddd;
   border-radius: 10px;
   margin: 5px auto;
@@ -214,13 +214,13 @@ h2 {
   justify-content: center;
   background-color: white;
   color: #875F9A;
-  border: 2px solid #875F9A; /* Green */
+  border: 2px solid #875F9A; 
   text-align: center;
 }
 
 .add-text-btn {
-  width: 300px;
-  height: 50px;
+  width: 310px;
+  height: 40px;
   border: solid 2px #ddd;
   border-radius: 10px;
   margin: 5px auto;
@@ -229,7 +229,7 @@ h2 {
   justify-content: center;
   background-color: white;
   color: #875F9A;
-  border: 2px solid #875F9A; /* Green */
+  border: 2px solid #875F9A;
 }
 
 

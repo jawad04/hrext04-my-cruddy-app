@@ -25,17 +25,16 @@ $(document).ready(function() {
 
   $(".add-text-btn").on("click", function(e) {
     e.stopPropagation();
-    var todoTexts = $(".user-input-title").val();
-    var fromBody = $(".user-input-body").val();
-    var color = $("#head").val();
+    var recipe = $(".user-input-title").val();
+    var ingredients = $(".user-input-body").val();
+    var color = $("#color-btn").val();
     var image = $('#url').val();
     $('.user-input-body').val("");
     $('.user-input-title').val("");
     $('#url').val("");
-    $("ol").append("<li style='background:"+color+"'> <span class='delete'> <i class='far fa-trash-alt'></i></span><span class='check'> <i class='fas fa-check'></i></span>" + todoTexts + " <span class='square'><i class='far fa-square'></i></span> <div class='overlay' style='display:none'><div class='textContainer'><div class='text'><h2>"+ todoTexts + "</h2><div class='details'>"+fromBody+"</div> <div class='images'><img src='"+image+"' width='300px' height='auto'/></div></div></div></div> </li>")
+    $("ol").append("<li style='background:"+color+"'> <span class='delete'> <i class='far fa-trash-alt'></i></span><span class='check'> <i class='fas fa-check'></i></span>" + recipe + " <span class='square'><i class='far fa-square'></i></span> <div class='overlay' style='display:none'><div class='textContainer'><div class='text'><h2>"+ recipe + "</h2><div class='details'>"+ingredients+"</div> <div class='images'><img src='"+image+"' width='300px' height='auto'/></div></div></div></div> </li>")
 
   });
-
 
   $('ol').on('click','.overlay', function(e) {
     e.stopPropagation();

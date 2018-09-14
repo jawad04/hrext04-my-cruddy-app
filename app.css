@@ -1,6 +1,6 @@
 #container {
 width: 1000px;
-margin: 100px auto;
+margin: 150px auto;
 }
 
 #todos {
@@ -16,22 +16,25 @@ background: #f7f7f7;
 width: 500px;
 float: left;
 height: 500px;
-background-color: yellow;
+background-image: url("freshfood.jpg");
+background-size: cover;
+
 }
 
 .complete {
-color: red;
+color: black;
 text-decoration: line-through;
 }
 
 h1 {
-	background: #2980b9;
+	background: #875F9A;
 	color: white;
 	margin: 0;
 	padding: 10px 20px;
 	text-transform: uppercase;
 	font-size: 24px;
 	font-weight: normal;
+	text-align: center;
 }
  ul {
  	list-style: none;
@@ -45,9 +48,12 @@ h1 {
  }
  body {
  	font-family: Roboto;
- 	background: #c9d6ff; /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #c9d6ff, #e2e2e2); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #c9d6ff, #e2e2e2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+background: #F09819;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #EDDE5D, #F09819);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #EDDE5D, #F09819); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+  
  }
 
  li {
@@ -64,7 +70,7 @@ h1 {
  	font-size: 18px;
  	background-color: #f7f7f7;
  	width: 100%;
- 	padding: 13px 13px 13px 20px;
+ 	padding: 13px 13px 13px 10px;
  	box-sizing: border-box;
  }
  .user-input-title:focus {
@@ -75,9 +81,9 @@ h1 {
  	font-size: 18px;
  	background-color: #f7f7f7;
  	width: 100%;
- 	padding: 13px 13px 13px 20px;
+ 	padding: 13px 13px 13px 10px;
  	box-sizing: border-box;
- 	height: 200px;
+ 	height: 250px;
  }
  textarea:focus {
  	background: white;
@@ -85,19 +91,17 @@ h1 {
  }
 
  .fa-square {
+ 	color: white;
  	margin-right: 10px;
  	float: right;
  	text-align: center;
  	margin-top: 10px;
 
  }
- .fa-minus {
- 	float: right;
- 	margin-right: 10px;
- }
+
 
  .delete {
- 	background: #e74c3c;
+ 	/*background: #e74c3c;*/
  	height: 40px;
  	text-align: center;
  	margin-right: 0;
@@ -114,7 +118,7 @@ h1 {
  }
  
  .check {
- 	background: #e74c3c;
+ 	/*background: #e74c3c;*/
  	height: 40px;
  	text-align: center;
  	margin-right: 10px;
@@ -128,8 +132,57 @@ h1 {
  	background: black;
  }
  .hide {
- 	display: block;
+ 	display:block;
  }
+
+
+ .overlay {
+    position: absolute;
+    display: none;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.8);
+    z-index: 2;
+    cursor: pointer;
+}
+/*.textContainer {
+	position: absolute;
+	border: 2px solid black;
+	width: 500px;
+	height: 500px;
+	margin: 100px;
+}*/
+
+.text{
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 20px;
+    color: white;
+    transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+}
+h2 {
+	background: #875F9A;
+	color: white;
+	margin: 0;
+	padding: 10px 20px;
+	text-transform: uppercase;
+	font-size: 50px;
+	font-weight: normal;
+
+}
+
+.images {
+  display: block;
+  width: 20%;
+  height: auto;
+	/*position: fixed;*/
+}
 
 
 

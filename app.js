@@ -15,7 +15,7 @@ $(document).ready(function() {
 
    $("ol").on("click", ".square", function(e) {
     e.stopPropagation();
-    var toggler = $(this).siblings(".hider");
+    var toggler = $(this).siblings('.overlay');
     if (toggler.css('display') === 'none') {
       toggler.css('display', 'block');
     } else {
@@ -36,12 +36,22 @@ $(document).ready(function() {
     var todoTexts = $(".user-input-title").val();
     var fromBody = $(".user-input-body").val();
     var color = $("#head").val();
+    var image = $('#url').val();
     $('.user-input-body').val("");
     $('.user-input-title').val("");
-    $("ol").append("<li style='background:"+color+"'> <span class='delete'> <i class='far fa-trash-alt'></i></span><span class='check'> <i class='fas fa-check'></i></span>" + todoTexts + " <span class='square'><i class='far fa-square'></i></span> <div class='hider' style='display:none'> </div> </li>")
-  $(".hider").append("<div><h1>"+ todoTexts + "</h1><div>"+fromBody+"</div></div>");
+    $('#url').val("");
+    $("ol").append("<li style='background:"+color+"'> <span class='delete'> <i class='far fa-trash-alt'></i></span><span class='check'> <i class='fas fa-check'></i></span>" + todoTexts + " <span class='square'><i class='far fa-square'></i></span> <div class='overlay' style='display:none'><div class='textContainer'><div class='text'><h2>"+ todoTexts + "</h2><div class='details'>"+fromBody+"</div> <div class='images'><img src='"+image+"' width='300px' height='auto'/></div></div></div></div> </li>")
+    // $(".overlay").append("<div class='text'><h2>"+ todoTexts + "</h2><div>"+fromBody+"</div></div>");
+
   });
 
+
+  $('ol').on('click','.overlay', function(e) {
+    e.stopPropagation();
+    $('.overlay').css('display', 'none');
+  })
+
+ 
  
 
 

@@ -14,7 +14,8 @@
 
   </head>
   <body>
-    <div id="container">
+    <h3>What to cook?</h3>
+      <div id="container">
       <div id = "todos">
         <h1> Todo List </h1>
         <input type="text" class="user-input-title" placeholder="Enter the Title"> 
@@ -22,11 +23,16 @@
         <textarea class="user-input-body" placeholder="Enter the body of text"></textarea>
         <div>
         <input type="color" id="head" name="color"
-               value="#e66465" />
+               value="#19B5FE" />
         <label for="head">Pick A Color</label>
     </div>
-    <button class="add-text-btn">Create List</button>
-    <button class="jawads"> Show</button>
+    <div class="control">
+        <label for="url">Enter Image URL:</label>
+        <input type="url" name="url" id="url"
+               placeholder="https://example.com"
+               pattern="https://.*" size="20"/>
+   </div>
+   <button class="add-text-btn">Create List</button>
       </div>
         <ul>
           <!-- <li><span>X</span> Go to Potions Class</li>
@@ -35,7 +41,7 @@
         </ul>
       </div>
       <div id="slides">
-        <h1> Some othere ones </h1>
+        <h1> Recipies </h1>
         <ol>
         </ol>
       </div>
